@@ -1,0 +1,39 @@
+
+pacifist_ideas = {
+    category = DIP
+
+    bonus = {
+        diplomatic_reputation = 10
+    }
+
+    inward_focus = {
+        global_unrest = -3
+    }
+
+    non_aggresive_attitude = {
+        ae_impact = 0.3
+    }
+
+    stable_society = {
+        stability_cost_modifier = -0.6
+    }
+
+    condemnation_of_aggression = {
+        improve_relation_modifier = 0.3
+    }
+
+    conflictfree_politics = {
+        stability_cost_to_declare_war = 1
+    }
+
+    popular_appreciation  = {
+        global_tax_modifier = 0.2
+        global_trade_goods_size_modifier = 0.1
+        legitimacy = 0.25
+    }
+
+    meritocracy = {
+        advisor_cost = -0.3
+    }
+
+}
