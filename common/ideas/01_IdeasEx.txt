@@ -36,4 +36,8 @@ pacifist_ideas = {
         advisor_cost = -0.3
     }
 
+    ai_will_do = {
+        factor = 0
+    }
+
 }

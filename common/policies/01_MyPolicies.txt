@@ -1,0 +1,42 @@
+pacifist_propaganda_act = {
+    monarch_power = DIP
+
+    potential = {
+		has_idea_group = spy_ideas
+		has_idea_group = pacifist_ideas
+	}
+
+    allow = {
+		full_idea_group = spy_ideas
+		full_idea_group = pacifist_ideas
+	}
+
+    ae_impact = -0.5
+    stability_cost_to_declare_war = -1
+
+    ai_will_do = {
+        factor = 0
+    }
+
+}
+
+internal_focus_act = {
+    monarch_power = ADM
+
+    potential = {
+		has_idea_group = economic_ideas
+		has_idea_group = pacifist_ideas
+	}
+
+    allow = {
+		full_idea_group = economic_ideas
+		full_idea_group = pacifist_ideas
+	}
+
+    development_cost = -0.3
+    ai_impact = 0.2
+
+    ai_will_do = {
+        factor = 0
+    }
+} 
