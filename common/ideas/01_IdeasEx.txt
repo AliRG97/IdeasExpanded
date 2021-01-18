@@ -41,3 +41,48 @@ pacifist_ideas = {
     }
 
 }
+
+strategic_ideas = {
+    monarch_power = MIL
+
+    bonus = {
+        leader_land_manuever = 2
+        leader_naval_manuever = 2
+        reserves_organisation = 0.25
+    }
+
+    drill_priority = {
+        drill_gain_modifier = 0.5
+    }
+
+    reorder_regiments = {
+        land_maintenance_modifier = -0.1
+        reinforce_speed = 0.33
+    }
+
+    professionals_in_the_army = {
+        yearly_army_professionalism = 0.005
+        military_tactics = 0.25
+    }
+
+    reeval_rankings = {
+        leader_land_manuever = 1
+        leader_naval_manuever = 1
+    }
+
+    agility_and_durability = {
+        land_attrition = -0.25
+        maneuver_value = 0.5
+        movement_speed = 0.1
+    }
+
+    naval_reform = {
+        ship_durability = 0.1
+        naval_attrition = -0.25
+    }
+
+    long_term_investment = {
+        drill_decay_modifier = -0.25
+    }
+
+}
