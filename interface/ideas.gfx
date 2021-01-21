@@ -203,4 +203,12 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+
+	spriteType = {
+		name = "GFX_idea_bureaucratic_ideas"
+		texturefile = "gfx//interface//ideas//idea_bureaucratic_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }
