@@ -425,11 +425,11 @@
  reeval_strategic_goals:0 "Re-evaluation of Strategic Goals"
  reeval_strategic_goals_desc:0 ""
  agility_and_durability:0 "Agility and Durablity"
- agility_and_durability_desc: ""
+ agility_and_durability_desc:0 ""
  naval_reform:0 "Naval Reform"
  naval_reform_desc:0 ""
  long_term_investment:0 "Long-term Investments"
- long_term_investment_desc:0
+ long_term_investment_desc:0 ""
  bureaucratic_ideas:0 "Bureaucratic Ideas"
  bureaucratic_ideas_bonus:0 "Fully Bureaucratic"
  ENG_ideas:0 "English Ideas"
