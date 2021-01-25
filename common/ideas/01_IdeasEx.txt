@@ -4,6 +4,7 @@ pacifist_ideas = {
 
     bonus = {
         diplomatic_reputation = 10
+        set_country_flag = pacifist
     }
 
     inward_focus = {
@@ -62,15 +63,15 @@ strategic_ideas = {
 
     professionals_in_the_army = {
         yearly_army_professionalism = 0.005
-        military_tactics = 0.25
+        add_army_professionalism = -10
     }
 
-    reeval_rankings = {
+    reeval_strategic_goals = {          #desc needed
         leader_land_manuever = 1
         leader_naval_manuever = 1
     }
 
-    agility_and_durability = {
+    agility_and_durability = {          #desc needed
         land_attrition = -0.25
         maneuver_value = 0.5
         movement_speed = 0.1
@@ -83,6 +84,45 @@ strategic_ideas = {
 
     long_term_investment = {
         drill_decay_modifier = -0.25
+    }
+
+}
+
+bureaucratic_ideas = {
+    monarch_power = ADM
+
+    bonus = {
+        set_country_flag = tax_privilege
+    }
+
+    demonstrate_control = {
+        harsh_treatment_cost = -0.4
+    }
+
+    municipalities = {
+        global_autonomy = -0.025
+    }
+
+    crises_management = {
+        stability_cost_modifier = -0.25
+    }
+
+    effecient_bureaucracy = {
+        global_tax_modifier = 0.15
+    }
+
+    centralized_government = {
+        governing_capacity_modifier = 0.25
+        state_maintenance_modifier = 0.3
+    }
+
+    projecting_power_across_land = {
+        min_autonomy_in_territories = -0.4
+        
+    }
+
+    adequate_infrastructes = {
+        max_absolutism = 20
     }
 
 }

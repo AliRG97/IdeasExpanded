@@ -1,0 +1,12 @@
+at_war_with_pacifist = {
+	potential = {
+	}
+
+	trigger = {
+		any_country = {
+			war_with = ROOT
+			has_idea = conflictfree_politics
+		}
+	}
+	land_morale = -0.1
+}
